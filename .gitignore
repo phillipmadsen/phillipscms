@@ -1,8 +1,58 @@
-/vendor
-/node_modules
-Homestead.yaml
-Homestead.json
-.env
+vendor/
+node_modules/
 
-.idea
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+bootstrap/cache/
+storage/
+
+
+./vendor/
+./node_modules/
+
+# Laravel 4 specific
+./bootstrap/compiled.php
+./app/storage/
+
+# Laravel 5 & Lumen specific
+./bootstrap/cache/
+./storage/
+
+storage/*
+./app/storage/*
+./storage/*
+.env.*.php
+.env.php
+.env
+.env.example
+*.mp4
+*.avi
+*.mpeg
+*.rar
+*.zip
 composer.lock
+
+
+./.git/objects/7e/02252dc989a008680ed1f24b7dd93e126fdbb2
+./.git/objects/82/a46515546ae89b1bce8dd7339fe601b762dc03
+./.git/objects/a5/31c668cfaee71c704c5a835ff94ea739081923
+./.git/objects/d4/10e056d4a0240d6f822448356fe3eb6a3bb949
+./.git/objects/12/9b489deeaf99da8c05fd24a6e8c3c5841adb32
+./.git/objects/24/efc4863f69bf124d6a65fc808d890b19e80956
+./.git/objects/6a/b5c2fd8a53ce7510f767a88184500919884e38
+./frontend.rar
+./public/frontend/images/product-overviews/gmq-pro/gmq-pro.psd
+./public/frontend/images/product-overviews/gracie-kq/IMG_1406_no_sally.psd
+./public/frontend/images/product-overviews/little-gracie/lgII.psd
+./public/frontend/images/product-overviews/little-gracie/lgII.tif
+./public/frontend/images/product-overviews/majestic/majestic_frame.psd
+./public/frontend/images/product-overviews/qct/qct-short-bg.mp4
+./public/frontend/images/shop/slider/shop top slider.psd
+./public/frontend/images/videos/qnique-video-background.mp4
+./public/frontend/images/videos/qnique-video-background.webm
+./public/frontend/include/rs-plugin/demos/assets/videos/iceberg.mp4
+./public/frontend/images/*
+./public/backend/*
